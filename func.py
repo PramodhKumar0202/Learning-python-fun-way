@@ -6,8 +6,9 @@ name(66,66)
 
 def sum(n1,n2):
     return n1+n2
-total =
+total = sum()
 print(sum(66,66))
+
 def hello():
     print("hello world")
 hello()   
@@ -28,7 +29,7 @@ def multilines(**kwargs):
     print(kwargs)
     print(type(kwargs))
 multilines(name="pra",name1="mod")
-recursion 
+#recursion 
 def add_one(num):
 
     if (num>= 9):
@@ -51,7 +52,7 @@ while value:
     else:
         value = 0
         continue
-lambda
+#lambda
 def square(num): return num * num
 #lambda num : num *num 
 print(square(10000))
